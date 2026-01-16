@@ -14,9 +14,10 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  主页: /
+  home: /
   about: /about/
   articles: /archives/
+  search: /search/
   #projects: https://github.com/fwfan
 
 # Links to your social media accounts.
@@ -159,8 +160,8 @@ mathjax:
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
-  enabled: false
-  shortname: cactus-1
+  enabled: true
+  shortname: fwfan
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
